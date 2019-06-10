@@ -3,4 +3,4 @@ if __name__ == '__main__':
   a = float(input())
   print ('Enter b:')
   b = float(input())
-  print(b % (10)+a % (10))
+  print(b % 10+a % 10)
