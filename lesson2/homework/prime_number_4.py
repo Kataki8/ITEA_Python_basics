@@ -6,7 +6,7 @@ import math
 
 def is_prime(x):
     for i in range(x-1, int(round(math.sqrt(x))), -1):
-        if not x % i == 0:
+        if not x % i:
             return False
     return True
 
